@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var quotes = 
+["But nothing happened!",
+"But nobody came.",
+"...",
+"There's nothing here.",
+]
+function generate() {
+	var rand = Math.floor(Math.random()*quotes.length);
+    document.getElementById("demo").innerHTML = quotes[rand];
+}
+</script>
+</head>
+
+<body>
+
+<h1>The Final Task</h1>
+<p id="demo">Clicking this button won't do anything.</p>
+<button type="button" onclick="generate()">Do Nothing</button>
+
+</body>
+
+<!--
+	You shouldn't be here yet!  The game is still on the 17th!
+	
+	-->
+
+</html>
